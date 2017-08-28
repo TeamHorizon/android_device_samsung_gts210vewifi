@@ -25,7 +25,7 @@ TARGET_OTA_ASSERT_DEVICE := gts210vewifi
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
 # Kernel
-TARGET_KERNEL_CONFIG := gts210vewifi_defconfig
+TARGET_KERNEL_CONFIG := wpk_gts210vewifi_defconfig
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
