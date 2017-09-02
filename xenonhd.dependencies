@@ -3,5 +3,20 @@
     "repository": "TeamHorizon/android_device_samsung_msm8976-common",
     "target_path": "device/samsung/msm8976-common",
     "branch": "n"
+  },
+  {
+    "repository": "TeamHorizon/android_kernel_samsung_msm8976",
+    "target_path": "kernel/samsung/msm8976",
+    "branch": "n"
+  },
+  {
+    "repository": "TeamHorizon/android_hardware_samsung",
+    "target_path": "hardware/samsung",
+    "branch": "n"
+  },
+  {
+    "repository": "LineageOS/android_hardware_sony_timekeep",
+    "target_path": "hardware/sony/timekeep",
+    "branch": "cm-14.1"
   }
 ]
