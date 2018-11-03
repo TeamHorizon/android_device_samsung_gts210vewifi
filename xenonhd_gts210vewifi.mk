@@ -22,11 +22,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, device/samsung/gts210vewifi/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/xenonhd/config/common_full_tablet_wifionly.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gts210vewifi
-PRODUCT_NAME := lineage_gts210vewifi
+PRODUCT_NAME := xenonhd_gts210vewifi
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-T813
 PRODUCT_MANUFACTURER := samsung
@@ -39,3 +39,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="gts210vewifixx-user 7.0 NRD90M T813XXS2BRC2 release-keys"
 
 BUILD_FINGERPRINT := "samsung/gts210vewifixx/gts210vewifi:7.0/NRD90M/T813XXS2BRC2:user/release-keys"
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.xenonhd.maintainer=joe2k01
